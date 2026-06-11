@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galeri</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header{
+            background-color: crimson;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav{
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover{
+            color: yellow;
+        }
+
+        main{
+            padding: 20px;
+        }
+
+        .galeri{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+        }
+
+        .card{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Galeri Foto</h1>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+
+<main>
+
+<div class="galeri">
+
+<div class="card">
+    <img src="assets/art.jpg">
+    <p>Pemnari bali</p>
+</div>
+
+<div class="card">
+    <img src="assets/bali.jpg">
+    <p>Pemandangan</p>
+</div>
+
+<div class="card">
+    <img src="assets/food.jpg">
+    <p>Kue</p>
+</div>
+
+<div class="card">
+    <img src="assets/mountain.jpg">
+    <p>Pegunungan</p>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+    <p>Copyright 2026 - Fika</p>
+</footer>
+
+</body>
+</html>
